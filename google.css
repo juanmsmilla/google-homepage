@@ -1,0 +1,45 @@
+#logo{
+
+	height:92px;
+	width:272px;
+	position: absolute;
+	left: calc(50% - 272px/2);
+	top:30%;
+}
+#searchbox{
+	display: inline-block;
+	top: calc(50%);
+	position:relative;
+	left:-10%;
+	border-radius: 50px;
+	box-shadow: 0 0 5px;
+	border: 0px;
+	height: 25px;
+	padding-left: 20px;
+}
+#logo-box{
+	background-color: orange;
+}
+body {
+    font-family: 'Roboto', arial, sans-serif;
+}
+button{
+	position:relative;
+
+	top:30px;
+	color: #5F6368;
+	border-style: hidden;
+	background-color: white;
+	height:30px;
+}
+button:hover{
+	border-style: solid;
+	border-radius:3px;
+	border: 1px solid #ccc
+}
+#voy{
+	left: 30px;
+}
+#bus{
+	left:20px;
+}
