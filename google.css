@@ -4,8 +4,10 @@ body{
 }
 
 .header-entry{
+	padding-top:18px;
+	padding-left:15px;
 	display:inline-block;
-	font-size: 12px;
+	font-size: 13px;
 }
 a{
 	
