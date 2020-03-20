@@ -5,17 +5,19 @@ body{
 
 .header-entry{
 	display:inline-block;
+	font-size: 12px;
 }
 a{
-	font-size: 12px;
+	
 	color: rgba(0,0,0,0.87);
 	text-decoration: none;
 }
-a:hover{
+a:hover, a:visited{
 	color: #3d3d3d;
     cursor: pointer;
     text-decoration: underline;
 }
+
 .he4{
 	position:absolute;
 	top:2px;
@@ -43,7 +45,7 @@ a:hover{
 	top:30%;
 }
 #searchbox{
-	display: inline-block;
+	display: inlineblock;
 	top: calc(50%);
 	position:relative;
 	left:-10%;
@@ -58,19 +60,21 @@ a:hover{
 body {
     font-family: 'Roboto', arial, sans-serif;
 }
+#button-box{
+	width: 300px;
+}
 button{
 	position:relative;
 	cursor: pointer;
 	top:30px;
 	color: #5F6368;
 	border-style: hidden;
-	background-color: white;
-	height:30px;
+	padding:9px 15px;
 }
 
 button:hover{
 	border-style: solid;
-	border-radius: 4px;
+	border-radius: 5px;
 	border: 1px solid lightgrey;
 	color: black;
 }
@@ -81,5 +85,23 @@ input:hover{
 	left: 30px;
 }
 #bus{
-	left:20px;
+	left: 10px;
+}
+footer{
+	display:inline-block;
+	position:fixed;
+	background-color: #f2f2f2;
+	position:fixed;
+	bottom: 0px;
+	left:0px;
+	right:0px;
+	border-top:	1px solid lightgrey;
+	height: 35px;
+	padding-top: 10px;
+	padding-left:30px;
+}
+.footer-element{
+	position: relative;
+	padding-right: 10px;
+	font-size:15px;
 }
